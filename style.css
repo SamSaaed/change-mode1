@@ -1,0 +1,180 @@
+
+body{
+    font-family:tahoma,serif;
+    font-size:14px;
+}
+.tag .tag1{
+    background:#5897d2;
+    color:#fff;
+    overflow:hidden;
+}
+.tag .tag1 ul{
+    list-style:none;
+    padding-left:0;
+}
+.tag .tag1 ul li{
+    float:left;
+    padding:10px;
+}
+.tag .tag1 ul li a{
+    text-decoration:none;
+    color:#dfdbdb;
+    font-size:15px;
+}
+.tag .tag1 ul li a:hover{
+    color:#fbf9f9;
+}
+.tag2{
+    background-color: rgb(124, 116, 116);
+    overflow: hidden;
+}
+    h1{
+        font-size: 40px;
+        color:#fff;
+        float: left;
+    }
+    h5{
+        font-size: 10px;
+        color: #fff;
+        float: left;
+    }
+    .tag3{
+        overflow: hidden;
+        height: 200px;
+    }
+.tag3 h1{
+    font-size: 50px;
+    color: rgb(34, 21, 218);
+    margin-left: 500px;
+}
+.tag4 h3{
+    float: left;
+    color: #cac1c1;
+}
+.tag4 HR{
+    margin-top: 50px;
+}
+.tag4 h4{
+    float: right;
+    color:#cac1c1 ;
+}
+.tag5 .g1{
+     width:20%;
+     float:left;
+      margin-left:4px;
+       height:170px;
+       text-align:center;
+        padding: 30px;
+    }
+.tag5 h1{
+    text-align: center;
+}
+.icon{
+    overflow:hidden;
+    float:left;
+    width:1348px;
+}
+.icon a img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 600px;
+  padding: 20px;
+}
+.icon a {
+    text-decoration:none;
+    color:#424040;
+    font-size:18px;
+}
+.copy{
+    background:#191918;
+    padding:25px;
+    text-align:center;
+    color:#dfdbdb;
+    font-size:17px;
+    overflow:hidden;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+  .dark button{
+    display: block;
+    float: right;
+    position: relative;
+    top: 10px;
+}
+.dark button img{
+    width: 30px;
+    height: 30px;
+   
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .main {width:100%;}
+    .container {width: 33.333;}
+    .lists2 {width: 25%;}
+    .images {width: 33.33%;}
+    .form-info{width: 41.66%;}
+    .divmain {width: 50%;}
+    .div2 {width: 58.33%;}
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .main {width: 8.33%;}
+    .container{width: 16.66%;}
+    .lists2{width: 25%;}
+    .images {width: 33.33%;}
+    .form-info{width: 41.66%;}
+    .divmain{width: 50%;}
+    .div2 {width: 58.33%;}
+  }
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .main {width:100%;}
+    .container {width:25%;}
+    .lists2 {width: 25%;}
+    .images {width: 4%;}
+    .form-info{width: 35%;}
+    .divmain {width: 40%;}
+    .div2 {width: 30%;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .main {width:100%;}
+    .container {width: 0%}
+    .lists2 {width: 30%;}
+    .images {width: 4.37%}
+    .form-info{width: 40%;}
+    .divmain {width: 50%;}
+    .div2 {width: 58.33%;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .main {width:100%;}
+    .container {width: 50%;}
+    .lists2 {width: 0%;}
+    .images {width: 2.7%;}
+    .form-info{width: 41.66%;}
+    .divmain {width: 50%;}
+    .div2 {width: 58.33%;}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .main {width:100%;}
+    .container {width: 100%;}
+    .lists2 {width: 100%;}
+    .images {width: 100%;}
+    .form-info{width: 100%;}
+    .divmain {width: 100%;}
+    .div2 {width: 100%;}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {} 
+  
